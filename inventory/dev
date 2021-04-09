@@ -1,0 +1,16 @@
+[webservers]
+web-server-1 ansible_ssh_pass=web1234! ansible_ssh_user=ec2-user
+web-server-2 ansible_ssh_pass=web1234! ansible_ssh_user=ec2-user
+web-server-3 ansible_ssh_pass=web1234! ansible_ssh_user=ec2-user
+
+[db]
+db-server ansible_ssh_pass=db1234! ansible_ssh_user=ec2-user
+
+#[jenkins]
+#jenkins ansible_ssh_pass=jenkins1234! ansible_ssh_user=centos
+
+#[lb]
+#nginx-server ansible_ssh_pass=nginx1234! ansible_ssh_user=centos
+
+#[nfs]
+#nfs-server ansible_ssh_pass=nfs1234! ansible_ssh_user=centos
